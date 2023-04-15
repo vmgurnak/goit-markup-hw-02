@@ -19,10 +19,11 @@ font-family: 'Roboto', sans-serif; */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
+  background-color: var(--white);
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -100,16 +101,20 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
 }
 
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -148,6 +153,7 @@ body {
 .projects-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
@@ -169,6 +175,7 @@ body {
 .team-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
